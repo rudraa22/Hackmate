@@ -14,7 +14,7 @@ A Tinder-style app for finding hackathon teammates. Swipe on developers, designe
 - [x] User registration and login (JWT)
 - [x] Protected routes with auth middleware
 - [x] Profile with role, skills and bio
-- [ ] Swipe and match logic
+- [x] Swipe and match logic
 - [ ] Real-time chat between matches
 - [ ] Hackathon events and team creation
 
@@ -26,6 +26,11 @@ A Tinder-style app for finding hackathon teammates. Swipe on developers, designe
 | GET | /api/auth/me | Yes | Get the current user |
 | GET | /api/users/profile | Yes | Get your profile |
 | PUT | /api/users/profile | Yes | Update your profile |
+| GET | /api/users/profile | Yes | Get your profile |
+| PUT | /api/users/profile | Yes | Update your profile |
+| GET | /api/swipes/deck | Yes | People you haven't swiped on |
+| POST | /api/swipes | Yes | Like or pass on a user |
+| GET | /api/matches | Yes | Your matches |
 
 ## Run Locally
 ```bash
